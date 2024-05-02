@@ -36,8 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.otherItems {
+  padding: 20px;
+}
 
 .similarComponents {
   display:flex;
-justify-content:space-between;
+  justify-content:space-between;
+  margin: 10px;
 }

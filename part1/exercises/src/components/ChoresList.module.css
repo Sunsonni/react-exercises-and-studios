@@ -1,7 +1,13 @@
 .choresText {
-   color: black;
+   color: #432534;
+   font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+   font-style: italic;
+   text-align: left;
 }
 
 .choresHeading {
-   color: black;
+   color: #C44900;
+   text-decoration: underline;
+   text-align: left;
 }
