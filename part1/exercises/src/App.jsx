@@ -7,16 +7,18 @@ import HobbyLinks from './components/HobbyLinks.jsx';
 
 function App() {
   return (
-    <div className="App">
-      <div className='otherItems'>
-      <ChoresList />
-      </div>
-      <div className='similarComponents'>
-      <MovieList />
-      <div style={{border: '2px solid black'}}>
-      <BookList />
-      </div>
-      <HobbyLinks />
+    <div className="background">
+      <div className="App">
+        <div className='otherItems'>
+        <ChoresList />
+        </div>
+        <div className='similarComponents'>
+        <MovieList />
+        <div style={{border: '2px solid black'}}>
+        <BookList />
+        </div>
+        <HobbyLinks />
+        </div>
       </div>
     </div>
   );

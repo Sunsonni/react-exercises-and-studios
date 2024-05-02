@@ -1,5 +1,12 @@
+.background{
+  height: 100%;
+  background-image: url(https://img.freepik.com/free-photo/bottle-camera-sunglasses-earphone-map-diary-wooden-desk_23-2147856156.jpg?w=1380&t=st=1714667594~exp=1714668194~hmac=cdee9db4fff48ae5e6045dd736e118c771f03a76a90d9ca1d88556d24d3d6640);
+  background-size: cover;
+}
+
 .App {
   text-align: center;
+  backdrop-filter: blur(5px);
 }
 
 .App-logo {
@@ -37,11 +44,14 @@
   }
 }
 .otherItems {
-  padding: 20px;
+  display: flex;
+  justify-content: left;
+  padding-left: 40px;
 }
 
 .similarComponents {
   display:flex;
-  justify-content:space-between;
-  margin: 10px;
+  flex-direction: row;
+  justify-content:space-evenly;
+  padding: auto;
 }
