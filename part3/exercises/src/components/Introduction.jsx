@@ -1,11 +1,11 @@
 export default function HobbyIntroduction () {
    return(
       <div>
-         <h2>3 Fun Facts About Needlepoint</h2>
+         <h2>3 Fun Facts About Gaming</h2>
          <ol>
-            <li>Needlepoint uses a specialized canvas as it's base.</li>
-            <li>The most basic stitch is called a tent stitch.</li>
-            <li>Needlepoint uses a lot of different kinds of fibers.</li>
+            <li>The global gaming industry was worth $214.20 billion in 2021, and $181.72 billion is attributed to online gaming.</li>
+            <li>The global gaming industry expanded by 26% between 2019 and 2021.</li>
+            <li>The longest game of Monopoly went on for 70 days</li>
          </ol>
       </div>
    );
