@@ -1,7 +1,10 @@
 import "./styling.css";
+import React from 'react';
 
-function SaveButton() {
+function SaveButton({onClick}) {
+
   function handleClick() {
+    onClick();
     alert("You are saving this pin!");
   }
   return (

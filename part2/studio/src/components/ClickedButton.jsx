@@ -1,5 +1,16 @@
-function ClickedButton() {
-  return;
+import React from 'react';
+
+function ClickedButton({onClick}) {
+  
+    function handleClick() {
+      onClick();
+      alert("This pin has been removed");
+    }
+    return (
+      <button id="clickedButton" onClick={handleClick}>
+        Saved
+      </button>
+    );
 }
 
 export default ClickedButton;

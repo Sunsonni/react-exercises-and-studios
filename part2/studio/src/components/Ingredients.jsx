@@ -1,9 +1,12 @@
+import recipedata from "./recipe.json";
+
 function IngredientList() {
-   return;
+  const recipeIngredients = recipedata.map((data) => {
+   return data.ingredients.map((ingredients,index) => {
+    return <li key={index}>{ingredients}</li>
+   })
+  });
+   return recipeIngredients;
  }
  
  export default IngredientList;
- 
-//import json file for the data
-//use a nested map to get inside the inner array
- 
