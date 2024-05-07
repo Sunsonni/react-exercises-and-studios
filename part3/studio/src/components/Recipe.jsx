@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.foodnetwork.com/fnk/profiles/emily-weinberger";
+   let authorPhoto = "https://food.fnr.sndimg.com/content/dam/images/food/plus/profiles/Emily-Weinberger/015_FN_Emily_s4x3.jpg.rend.hgtvcom.336.336.suffix/1569249533178.jpeg";
+   let authorName = "Emily Weinberger";
 
    return (
       <div>
@@ -17,7 +17,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ['flour', 'sugar', 'butter', 'whole milk', 'vanilla extract'];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -49,7 +49,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2024/03/20/COPYCAT_BERRY_CHANTILLY_CAKE_H_f.jpg.rend.hgtvcom.826.620.suffix/1711029024656.jpeg" alt="" className="imageUpdates"/>
    );
 }
 
